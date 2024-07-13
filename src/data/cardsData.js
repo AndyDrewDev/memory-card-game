@@ -1,7 +1,4 @@
-import {
-  closeCards,
-  markCardsAsMatched as addCardsToMatched,
-} from '../store/cardsSlice'
+import { closeCards, addCardsToMatched } from '../store/cardsSlice'
 
 const cardsData = [
   { type: '🐵', isOpen: false },
