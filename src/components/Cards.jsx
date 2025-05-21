@@ -8,11 +8,12 @@ import Fireworks from 'react-canvas-confetti/dist/presets/fireworks'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import { useEffect, useCallback } from 'react'
+import confettiImg from '../assets/confetti.png'
 
 const AlertWindow = withReactContent(Swal)
 
 const alertOptions = {
-  imageUrl: '/src/assets/confetti.png',
+  imageUrl: confettiImg,
   imageHeight: 100,
   title: 'Congratulations!',
   text: 'You win!',
