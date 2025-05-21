@@ -70,7 +70,7 @@ memory-card-game/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/memory-card-game.git
+git clone https://github.com/AndyDrewDev/memory-card-game.git
 cd memory-card-game
 ```
 
